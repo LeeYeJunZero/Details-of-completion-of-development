@@ -191,4 +191,43 @@ public class Logic_Test : MonoBehaviour
 
 
 
-<br>
+<hr>
+//vr게임 영역 문을 바라보면 문이 열리는 기능 구성
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class S_Script : MonoBehaviour
+{
+
+    public void GvrOn(){
+      
+      
+        StartCoroutine("OpenDoor");
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    IEnumerator OpenDoor(){  
+
+            for(int i= 0; i<=90; i++){
+               
+                transform.eulerAngles = new Vector3(0, i, 0);  
+                yield return new WaitForSeconds(0.01f);
+              
+            }
+
+    }
+
+}
