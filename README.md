@@ -22,7 +22,7 @@
 
 
 
-//public class Logic_Test : MonoBehaviour
+public class Logic_Test : MonoBehaviour
 {
 
     public Text creditVal, abilityVal, abilityCostVal, employeeVal, employeeCostVal; //외부에서 txt창과 연결
@@ -188,3 +188,7 @@
 
 
 }
+
+
+
+<br>
