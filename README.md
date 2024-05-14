@@ -193,7 +193,7 @@ public class Logic_Test : MonoBehaviour
 
 
 
-<hr>
+
 //vr게임 영역 문을 바라보면 문이 열리는 기능 구성
 
 using System.Collections;
@@ -233,10 +233,10 @@ public class S_Script : MonoBehaviour
     }
 
 }
-<hr>
+
 종스크롤 탄막 게임
 
--플레이어 이동
+//플레이어 이동
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -256,7 +256,7 @@ public class Player : MonoBehaviour
     }
 }
 
-<hr>
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
